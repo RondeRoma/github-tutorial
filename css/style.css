@@ -2,3 +2,44 @@ body {
   background-color: #fff;
   color: #2a2a2a;
 }
+a {
+  text-decoration: turquoise;
+}
+article {
+  font-size: medium;
+  text-decoration-color: yellow;
+  text-align: center;
+  text-shadow: yellowgreen;
+}
+
+.title {
+  font-weight: 400;
+  text-shadow: blueviolet;
+}
+.text {
+  color: teal;
+  font-size: 18px;
+}
+.link {
+  color: teal;
+}
+
+.notification {
+  font-size: 24px;
+  font-weight: 500;
+}
+.success {
+  color: green;
+}
+.warning {
+  color: orange;
+}
+.error {
+  color: red;
+}
+.social {
+  color: aqua;
+}
+table {
+  border: 2px solid black;
+}
