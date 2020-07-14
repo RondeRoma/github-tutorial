@@ -1,5 +1,12 @@
+html {
+  background-color: sandybrown;
+  color: seagreen;
+  font-family: monospace;
+  font-size: medium;
+}
+
 body {
-  background-color: #fff;
+  background-color: greenyellow;
   color: #2a2a2a;
 }
 a {
@@ -16,7 +23,7 @@ article {
 }
 .test-link:hover,
 .test-link:focus {
-  color: tomato;
+  color: rgb(255, 0, 0, 0.4);
 }
 
 .test-link:active {
