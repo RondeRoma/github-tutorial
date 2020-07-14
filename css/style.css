@@ -11,6 +11,17 @@ article {
   text-align: center;
   text-shadow: yellowgreen;
 }
+.test-link {
+  color: blue;
+}
+.test-link:hover,
+.test-link:focus {
+  color: tomato;
+}
+
+.test-link:active {
+  color: turquoise;
+}
 
 .title {
   font-weight: 400;
