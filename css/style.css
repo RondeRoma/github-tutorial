@@ -1,22 +1,33 @@
 html {
-  background-color: sandybrown;
   color: seagreen;
-  font-family: monospace;
+  font-family: "Montserrat", sans-serif;
   font-size: medium;
 }
 
 body {
-  background-color: greenyellow;
+  background-color: white;
   color: #2a2a2a;
+  text-align: center;
 }
 a {
   text-decoration: turquoise;
+  text-decoration-line: none;
+}
+td > span {
+  text-decoration: line-through;
 }
 article {
   font-size: medium;
+  font-weight: 600;
   text-decoration-color: yellow;
-  text-align: center;
-  text-shadow: yellowgreen;
+  text-align: left;
+  text-transform: uppercase;
+}
+.post-text {
+  text-indent: 20px;
+  line-height: 2;
+  letter-spacing: 5px;
+  text-shadow: 5px 5px 7px #f7f70e, 4px 3px 4px #f02af2;
 }
 .test-link {
   color: blue;
@@ -64,6 +75,12 @@ table {
   width: 50px;
   border-collapse: collapse;
 }
+tr,
+td,
+th {
+  border: 2px solid black;
+}
+
 .stylebody > tr:hover {
   background-color: orange;
 }
@@ -75,4 +92,19 @@ table {
   width: 155px;
   border-color: orchid;
   background-origin: padding-box;
+}
+pre {
+  font-family: "Arial", "Helvetica", sans-serif;
+  color: #2a2a2a;
+  font-size: 16px;
+}
+
+pre::first-letter {
+  font-family: "Tahoma", serif;
+  font-size: 32px;
+  color: #f44336;
+}
+pre::selection {
+  color: #ffffff;
+  background-color: #3f51b5;
 }
