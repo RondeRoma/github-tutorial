@@ -2,6 +2,13 @@ html {
   color: seagreen;
   font-family: "Montserrat", sans-serif;
   font-size: medium;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -9,15 +16,7 @@ body {
   color: #2a2a2a;
   text-align: center;
 }
-.banner {
-  box-sizing: border-box;
-  width: 700px;
-  height: 250px;
-  border: 5px solid #2a2a2a;
-  padding: 30px;
-  margin: 100px;
-  background-color: #009688;
-}
+
 td > span {
   text-decoration: line-through;
 }
@@ -31,8 +30,18 @@ article {
 .post-text {
   text-indent: 20px;
   line-height: 2;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   text-shadow: 5px 5px 7px #f7f70e, 4px 3px 4px #f02af2;
+  box-sizing: border-box;
+  width: 650px;
+  height: 350px;
+  border: 2px dotted #850a0a;
+  border-right-style: dashed;
+  border-right-color: rgb(85, 3, 31);
+  padding: 30px 10px 30px 100px;
+  margin: 50px 50px 100px 450px;
+  background-color: palevioletred;
+  border-radius: 150px;
 }
 .test-link {
   color: blue;
@@ -42,20 +51,38 @@ article {
   color: rgb(255, 0, 0, 0.4);
 }
 
+.link {
+  display: inline-block;
+  padding: 20px 50px;
+  border-radius: 3px;
+  background-color: teal;
+  color: tomato;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 .test-link:active {
   color: turquoise;
 }
-
+.is-hidden {
+  display: none;
+}
 .title {
   font-weight: 400;
   text-shadow: blueviolet;
 }
 .text {
-  color: teal;
-  font-size: 18px;
-}
-.link {
-  color: teal;
+  background-color: teal;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .notification {
@@ -112,4 +139,7 @@ pre::first-letter {
 pre::selection {
   color: #ffffff;
   background-color: #3f51b5;
+}
+.list-item:nth-child(3n + 1) {
+  background-color: orange;
 }
