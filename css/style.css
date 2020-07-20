@@ -22,7 +22,7 @@ body {
   /* Устанавливает внешние отступы */
   margin: 100px;
 
-  background-color: #009688;
+  background-color: tomato;
 }
 td > span {
   text-decoration: line-through;
