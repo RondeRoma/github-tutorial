@@ -14,7 +14,7 @@ html {
 body {
   background-color: white;
   color: #2a2a2a;
-  text-align: center;
+  margin: 0;
 }
 
 td > span {
@@ -26,6 +26,7 @@ article {
   text-decoration-color: yellow;
   text-align: start;
   text-transform: uppercase;
+  text-align: center;
 }
 .post-text {
   text-indent: 20px;
@@ -50,7 +51,13 @@ article {
 .test-link:focus {
   color: rgb(255, 0, 0, 0.4);
 }
-
+.conteiner {
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: burlywood;
+  align: center;
+}
 .link {
   display: inline-block;
   padding: 20px 50px;
@@ -106,6 +113,8 @@ table {
   height: 50px;
   width: 50px;
   border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
 }
 tr,
 td,
@@ -128,7 +137,10 @@ th {
 pre {
   font-family: "Arial", "Helvetica", sans-serif;
   color: #2a2a2a;
-  font-size: 16px;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
 }
 
 pre::first-letter {
